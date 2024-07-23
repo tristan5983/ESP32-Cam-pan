@@ -2,7 +2,7 @@
 
 
 Overview
-The code turns an ESP32 module into a web-controlled pan-tilt camera system using an ESP32-CAM board. It sets up the ESP32 as a WiFi Access Point (AP) named "ESP32-CAM-AP" with a specified password. Clients can connect to this AP to control the camera's movement and view the live stream from the camera.
+The code turns an ESP32 module into a web-controlled pan camera system using an ESP32-CAM board. It sets up the ESP32 as a WiFi Access Point (AP) named "ESP32-CAM-AP" with a specified password. Clients can connect to this AP to control the camera's movement and view the live stream from the camera.
 
 Components and Libraries Used
 ESP32 Libraries: The code utilizes libraries specific to the ESP32 platform for handling WiFi communication (WiFi.h), camera interfacing (esp_camera.h), and HTTP server functionality (esp_http_server.h).
